@@ -4,11 +4,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Einmaleins-Stoppuhr</title>
+<link rel="apple-touch-icon" href="icon-stoppuhr.png">
+<link rel="icon" href="icon-stoppuhr.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Einmaleins">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#ECF0F5">
+<meta name="color-scheme" content="light">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=DM+Mono:wght@400;500&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 :root{
+  color-scheme:light;
   --paper:#ECF0F5; --card:#FFFFFF; --ink:#0E1B2B; --ink-soft:#5A6B80;
   --lane:#1B3B6F; --line:#D5DEE8;
   --t1:#0EA47A; --t2:#7BC96F; --t3:#FFC145; --t4:#FF7A45;
@@ -17,6 +25,7 @@
 }
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
+html{background-color:#ECF0F5}
 body{background:var(--paper);color:var(--ink);font-family:"Inter Tight",system-ui,sans-serif;-webkit-font-smoothing:antialiased;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
 button{font:inherit;color:inherit;border:0;background:none;cursor:pointer}
 button:focus-visible{outline:3px solid var(--lane);outline-offset:2px;border-radius:6px}
